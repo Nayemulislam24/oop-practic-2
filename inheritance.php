@@ -3,7 +3,7 @@
     public $name;
     public $age;
 
-function __construct($fname,$fage){
+ function __construct($fname,$fage){
     $this->name=$fname;
     $this->age=$fage;
     }
@@ -33,5 +33,6 @@ class student_info extends man{
 $test = new student_info("Md.nayem",20,"dhaka");
 // echo $test->info();
 echo $test->message();
+
 
 ?>
